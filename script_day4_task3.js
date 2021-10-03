@@ -1,7 +1,7 @@
 //1. Create XHR object/constructor
 var request=new XMLHttpRequest();
 //2. Open a connection
-request.open("GET","https://restcountries.eu/rest/v2/all",true);
+request.open("GET","https://restcountries.com/v2/all",true);
 //3. Initiate the connection
 request.send();
 //4. Once the data loaded from the server successfully
